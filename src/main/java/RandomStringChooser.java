@@ -10,10 +10,10 @@ public class RandomStringChooser
       words.add(w);
   }
 
-  public Sttring getNext()
+  public String getNext()
   {
    if(words.size() ==0)
-     return none;
+     return "NONE";
     int i = (int)(Math.random()*words.size());
     return words.remove(i);
   }
